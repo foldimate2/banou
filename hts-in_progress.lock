@@ -1,0 +1,7 @@
+Mirror in progress since Sun, 27 Oct 2024 11:54:43 .. please wait!
+httrack https://www.banouto.bj/ 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=7039
+UID=1000
+GID=1000
+START=1730026483

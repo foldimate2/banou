@@ -1,0 +1,108 @@
+/*.device-detector > * {display: none;}*/
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .laptop, .laptop-pub {display: none !important;}
+    /*.header-main__cell--logo {justify-content: flex-start}*/
+    .bg-mobile {background-color: #fff}
+    .responsive-padding {padding: 15px !important; }
+    .another-news .tc-post-grid-default .item .content {margin-top: 20px;}
+    .another-news .mobile-margin h3 {
+        /*color: #e00;*/
+        margin-top: 20px;
+        border-bottom: 1px solid #e00 !important;
+    }
+    .tc-main-post-content .content p {
+        font-size: 16px !important;
+    }
+    .tc-author-card .content .title { font-size: 20px !important;}
+    .tc-author-card .content .text { font-size: 16px !important;}
+
+    /*   .responsive-padding {padding-left: 0 !important; padding-right: 0 !important;}
+       .responsive-padding .tc-posts-tabs-style3 .section-title-style2 {
+           margin-bottom: 0 !important;}
+       .footer-style2 .foot {margin-top: 10px !important;}
+       .footer-style2 .social-links a {font-size: 15px !important; width: 25px !important; height: 25px !important;}*/
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 991px) {
+    .laptop, .mobile-pub {display: none !important;}
+    .bg-mobile {background-color: #fff}
+    /*.header-main__cell--logo {justify-content: flex-start}*/
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 992px) and (max-width: 1280px) {
+    .tablet-mobile, .mobile-pub {display: none !important;}
+    /*.header-main__cell--logo{left: 50%}*/
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+    .tablet-mobile, .mobile-pub {display: none !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/*
+@media (min-width: 1281px) {
+    .tablet-mobile, .mobile-pub {display: none}
+}
+
+!*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*!
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tablet-mobile {display: none}
+}
+
+!*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*!
+@media (min-width: 768px) and (max-width: 1024px) {
+    .laptop {display: none}
+    .header-main__cell--logo {justify-content: flex-start}
+}
+
+!*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*!
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .tablet-mobile, .mobile-pub {display: none}
+    .laptop {display: block}
+    .header-main__cell--logo{left: 50%}
+
+}
+*/
+
+
+
